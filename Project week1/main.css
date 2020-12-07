@@ -1,0 +1,326 @@
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #fff;
+    background: #001821;
+    font-size: 16px;
+    line-height: 21px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.header {
+    height: 123px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 58px;
+    left: 0;
+}
+
+.menu {
+    position: absolute;
+    top: 75px;
+    left: 538px;
+
+}
+
+.menu_item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 54px;
+}
+
+.menu_item--active .menu_link{
+color: #DA0100;
+}
+.menu_item:last-child{
+    margin:0;
+}
+
+.menu_link {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.contacts {
+    top: 68px;
+    right: 380px;
+    position: absolute;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts_number {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.contacts_dropdown-title {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.preview_title {
+width: 511;
+}
+
+.preview_title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 99px;
+    margin-bottom: 27px;
+    word-break: normal;
+
+}
+
+.preview_description {
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.preview_button,.about_button {
+    display: block;
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:14px;
+    margin-bottom: 246px;
+}
+
+.section {
+    margin-bottom: 127;
+}
+.tours_title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 51px;
+    
+}
+.tours_item{
+    min-height: 549;
+    display: inline-block;
+    margin-right: 27px;
+    background: #fff;
+    border-radius: 5px;
+    width: 320px;
+    position: relative;
+    vertical-align: bottom;
+    margin-bottom: 127px;
+}
+.tours_item:last-child{
+    margin-right: 0px;
+}
+
+
+.tours_img{
+    min-height: 144px;
+    margin-bottom: 33px;
+} 
+
+.tour_button {
+    display: block;
+    background: #fff; 
+    border-radius: 35px;
+    border-color:#F5170E ;
+    border-width: 1px;
+    border-style: solid;
+     padding: 18px 30px ;
+     color: #F5170E;
+font-weight: 700;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14px;;
+
+}
+
+
+.tour_button--active .tour_button{
+    color: #F5170E;
+    
+}
+
+.tours_subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 21px;
+}
+.text_tour{
+  font-size: 14px;
+  font-weight: 400;  
+  color: #303030 ;
+}
+.conditions_right-text {
+    color:#666666 ;
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 23;
+    width: 90;
+}
+.conditions_left-text{
+color:#666666 ;
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 23;
+    width: 90;
+}
+.tours_img-icon {
+   width: 362;
+   height: 144;
+   display: inline-block;
+}
+
+.news_title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 51;
+}
+.news_item{
+width: 557;
+height:395 ;
+display: linle-block;
+vertical-align: top;
+position: relative;
+border-radius: 5px;
+}
+
+.cover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+overflow: hidden;
+opacity: 40%;
+}
+
+.news_content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px 30px;
+    min-height: 140px;
+}
+.news_date-month{
+    font-size: 14px; 
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+.news_date-year{
+    font-size: 14px; 
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+.news_subtitle{
+    font-size:24px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.text{
+    font-size:16px ;
+    font-weight: 400;
+    color: #fff;
+
+}
+.news_list {
+    margin-bottom: 58px;;
+}
+
+.paginator{
+    text-align: center;
+}
+.paginator_display,.paginator_list,.paginator_item{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paginator_display{
+    margin-right:26px ;
+    font-size:16px;
+    font-weight: 400;
+    
+}
+.paginator{
+    margin-bottom: 153px;
+}
+
+.paginator_link{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    width: 10px;
+    height: 21px;
+    border-radius: 50%;
+    position: relative;
+    line-height: 21px;
+}
+.paginator_item--active .paginator_link{
+    background: #fff;
+    color: #F5170E;
+}
+paginator_item{
+display: inline-block; 
+vertical-align: middle;
+margin-right: 24px;
+}
+
+.about:before{
+    content: ;
+    display: block;
+    width: 490;
+    height: 505;
+    background: url("./img/about/gates.png") center center / cover no-repeat;
+}
+.about_desc{
+    background: url(./img/about/mount.png);
+    width: 785;
+    height: 455;
+    padding: 156 81;
+}
+.about_title{
+font-size: 36;
+font-weight: 700;
+color: #000;
+margin-bottom: 37;
+}
+.about_desc{
+    font-size:16 ;
+    font-weight: 400;
+    color:#060606 ;
+    margin-bottom: 61;
+}
