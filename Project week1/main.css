@@ -34,6 +34,7 @@ ul li {
 .container {
     margin: 0 auto;
     width: 1150px;
+    position:relative;
 }
 
 .header {
@@ -437,7 +438,7 @@ logo_img_down{
     position: relative;
 }
 .contacts_down{
-right: 389px;
+right: 0px;
 position: absolute;
 font-style: normal;
 text-align: right;
