@@ -34,7 +34,7 @@ ul li {
 .container {
     margin: 0 auto;
     width: 1150px;
-    position:relative;
+    position: relative;
 }
 
 .header {
@@ -55,8 +55,8 @@ width: 85px;
 
 .menu {
     position: absolute;
-    top: 75px;
-    left: 538px;
+    top: 65px;
+    left: 164px;
 
 }
 
@@ -86,8 +86,8 @@ color: #DA0100;
 }
 
 .contacts {
-    top: 68px;
-    right: 380px;
+    top: 77px;
+    right: 0px;
     position: absolute;
     font-style: normal;
     text-align: right;
@@ -102,7 +102,8 @@ color: #DA0100;
 .contacts_dropdown-title {
     font-size: 13px;
     text-decoration: underline;
-    color:#1E1F20 ;
+    color: #FFFFFF ;
+    top: -13px;
 }
 
 .preview_title {
@@ -437,12 +438,15 @@ logo_img_down{
     left: 654px;
     position: relative;
 }
+
 .contacts_down{
 right: 0px;
 position: absolute;
 font-style: normal;
 text-align: right;
+top: 58px;
 }
+
 .contacts_text{
     color:#9A9A9A;
     font-size: 11px;
