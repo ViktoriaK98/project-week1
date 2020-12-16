@@ -1,0 +1,41 @@
+.contacts {
+    top: 77px;
+    right: 0px;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts_number {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.contacts_dropdown-title {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #FFFFFF;
+    top: -13px;
+}
+
+.contacts_down {
+    right: 0px;
+    position: absolute;
+    font-style: normal;
+    text-align: right;
+    top: 58px;
+}
+
+.contacts_text {
+    color: #9A9A9A;
+    font-size: 11px;
+    display: inherit;
+    position: relative;
+    bottom: 14px;
+    margin-bottom: 7px;
+}
+
+.contacts_number {
+    position: relative;
+    bottom: 14px;
+}
