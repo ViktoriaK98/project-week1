@@ -7,38 +7,43 @@
     <title>Air Asia</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
     <div class="wrapper main-page--wrapper">
         <section class="asia">
-            <div class="container">
+            <div class="container asia__container">
                 <header class="header">
-                    <a href="./img/icons/logo.png" class="logo"></a>
-                    <img src="./img/icons/logo.png" alt="Air Asia" class="logo_img">
-                    </a>
+                    <div class="header__col">
+                        <a href="./img/icons/logo.png" class="logo">
+                        <img src="./img/icons/logo.png" alt="Air Asia" class="logo_img">
+                        </a>
+                        <div class="menu">
+                            <ul class="menu_list">
+                                <li class="menu_item">
+                                    <a href="" class="menu_link">Главная</a>
+                                </li>
+                                <li class="menu_item menu_item--active">
+                                    <a href="/second.html" class="menu_link">Услуги</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="" class="menu_link"> Отзывы</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                        <div class="header__col header__col--align--right">
+                            <address class="contacts">
+                                <a href="tel: 88007003030" class="contacts_number">8 800 700 30 30</a>
+                                <div class="contacts_dropdown-title">График работы</div>
+                            </address>
+                        </div>
                 </header>
-                <nav class="menu">
-                    <ul class="menu_list">
-                        <li class="menu_item">
-                            <a href="" class="menu_link">Главная</a>
-                        </li>
-                        <li class="menu_item menu_item--active">
-                            <a href="" class="menu_link">Услуги</a>
-                        </li>
-                        <li class="menu_item">
-                            <a href="" class="menu_link"> Отзывы</a>
-                        </li>
-                    </ul>
-                </nav>
-                <address class="contacts">
-                    <a href="tel: 88007003030" class="contacts_number">8 800 700 30 30</a>
-                    <div class="contacts_dropdown-title">График работы</div>
-                </address>
+
                 <div class="preview">
                     <div class="preview_title">
-                        Авторские </br> туры по Азии
+                        Авторские туры по Азии 
                         <div class="preview_description">
                             Открой для себя Азию
                         </div>
@@ -135,7 +140,7 @@
                                     <span class="news_date-year">2019</span>
                                 </time>
                                 <div class="news_subtitle">Дешевые путевки на Новый Год!</div>
-                                <div class="text">Проведи новый год в Тайланде</div>
+                                <div class="news_text">Проведи новый год в Тайланде</div>
                             </div>
                         </li>
                         <li class="news_item">
@@ -146,7 +151,7 @@
                                     <span class="news_date-year">2019</span>
                                 </time>
                                 <div class="news_subtitle">Акция для серфенгистов!</div>
-                                <div class="text">В сезон больших волн скидка на путевку в Тайланд на остров
+                                <div class="news_text">В сезон больших волн скидка на путевку в Тайланд на остров
                                     серфенгистов.
                                     Удачного пути!</div>
                             </div>
@@ -216,7 +221,7 @@
                                 <a href="" class="menu_link">Главная</a>
                             </li>
                             <li class="menu_item">
-                                <a href="" class="menu_link">Услуги</a>
+                                <a href="second.html" class="menu_link">Услуги</a>
                             </li>
                             <li class="menu_item">
                                 <a href="" class="menu_link"> Отзывы</a>
