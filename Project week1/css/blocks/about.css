@@ -14,7 +14,7 @@
     height: 505px;
     position: absolute;
     z-index: 0;
-    background: url("./img/about/gates.png") center center / cover no-repeat;
+    background: url("/img/about/gates.png") center center / cover no-repeat;
     border-radius: 5px;
     bottom: 65px;
 }
