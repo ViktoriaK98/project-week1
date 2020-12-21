@@ -14,13 +14,13 @@
     height: 505px;
     position: absolute;
     z-index: 0;
-    background: url("./img/about/gates.png") center center / cover no-repeat;
+    background: url("../../img/about/gates.png") center center / cover no-repeat;
     border-radius: 5px;
     bottom: 65px;
 }
 
 .about_desc {
-    background: url("./img/about/mount.png");
+    background: url("../../img/about/mount.png");
     width: 785px;
     height: 455px;
     padding: 156px 81px;
