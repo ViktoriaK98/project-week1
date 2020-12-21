@@ -105,7 +105,7 @@ img{
 
 .paginator{
     color: #000;
-    margin-bottom: 90px;
+    margin-bottom: 0px;
 }
 .paginator_item--active .paginator_link{
     color: #fff;
