@@ -1,5 +1,5 @@
 .services_wrapper{
-    background: url("/img/services/scover/headline.png") left top no-repeat ;
+    background: url("./img/services/scover/headline.png") left top no-repeat ;
 }
 .services{
     min-width: 412px;
@@ -198,7 +198,7 @@ padding: 50px 30px;
 }
 
 .review_user:after{
-    content: url("/img/review/vk-blue.png");
+    content: url("./img/review/vk-blue.png");
     height: 29px;
     padding-left: 12px
 }
@@ -252,7 +252,7 @@ padding: 50px 30px;
 }
 
 .separator{
-    background: url("/img/review/middleline.png");
+    background: url("./img/review/middleline.png");
 
     min-height: 363px;
     display: flex;
