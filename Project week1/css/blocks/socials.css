@@ -15,40 +15,40 @@
 }
 
 .socials-item_telegram .socials_link{
-    background-image: url("./img/socials/t.png");
+    background-image: url("../../img/socials/t.png");
 }
 
 .socials-item_telegram:hover .socials_link{
-    background-image: url("./img/socials/t.png");
+    background-image: url("../../img/socials/t.png");
     opacity: 1;
 }
 
 
 .socials-item_vk .socials_link{
-    background-image: url("./img/socials/vk.png");
+    background-image: url("../../img/socials/vk.png");
 }
 
 .socials-item_vk:hover .socials_link{
-    background-image: url("./img/socials/vk.png");
+    background-image: url("../../img/socials/vk.png");
     opacity: 1;
 }
 
 .socials-item_facebook .socials_link{
-    background-image: url("./img/socials/f.png");
+    background-image: url("../../img/socials/f.png");
 
 }
 
 .socials-item_facebook:hover .socials_link{
-    background-image: url("./img/socials/f.png");
+    background-image: url("../../img/socials/f.png");
     opacity: 1;
 }
 
 .socials-item_inst .socials_link{
-    background-image: url("./img/socials/in.png");
+    background-image: url("../../img/socials/in.png");
 }
 
 .socials-item_inst:hover .socials_link{
-    background-image: url("./img/socials/in.png");
+    background-image: url("../../img/socials/in.png");
     opacity: 1;
 }
 
