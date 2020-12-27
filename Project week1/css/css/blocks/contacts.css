@@ -14,7 +14,7 @@
 .contacts_dropdown-title {
     font-size: 13px;
     text-decoration: underline;
-    color: #FFFFFF;
+    color: #98A4A8;
     top: -13px;
 }
 
@@ -38,4 +38,55 @@
 .contacts_number {
     position: relative;
     bottom: 14px;
+}
+
+.contacts_dropdown-item{
+    position: absolute;
+right:-9999px;
+top: 100%;
+padding: 30px;
+color: #1E1F20;
+}
+
+.dropdown:hover .contacts_dropdown-item{
+    right: 0;
+}
+
+.dropdown{
+    cursor: pointer;
+    width: max-content;
+    margin-left: auto;
+    position: relative;
+}
+
+
+#rectangle{
+    width: 160px;
+    height: 80px;
+    background: #CDD1D2;
+    mix-blend-mode: normal;
+opacity: 0.8;
+position: relative;
+border-radius: 9px;
+margin-top: 8px;
+}
+
+#rectangle:before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -10%;
+    left: 91px;
+    border-bottom: 8px solid #CDD1D2;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    
+
+.contacts_dropdown-item {
+position: absolute;
+right:-9999px;
+top: 100%;
+padding: 30px;
+color: #1E1F20;
 }

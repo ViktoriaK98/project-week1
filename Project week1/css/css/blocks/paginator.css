@@ -8,6 +8,7 @@
 .paginator_list,
 .paginator_item {
     vertical-align: middle;
+    margin-right: 20px;
 }
 
 .paginator_display {
@@ -36,7 +37,10 @@
 .paginator_item--active .paginator_link {
     background: #fff;
     color: #F5170E;
-    align-items: center;
+    text-align: center;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
 }
 
 paginator_item {
