@@ -18,6 +18,10 @@
     top: -13px;
 }
 
+.contacts_dropdown-title:hover{
+color: #fff;
+}
+
 .contacts_down {
     right: 0px;
     position: absolute;
@@ -42,14 +46,12 @@
 
 .contacts_dropdown-item{
 top: 100%;
-margin-bottom: 5px;
+margin-bottom: 9px;
 color: #1E1F20;
 text-align: center;
-position: absolute;
-right: -999px;
 }
 
-.dropdown:hover .contacts_dropdown-item{
+.dropdown:hover #rectangle{
     right: 0;
 }
 
@@ -70,6 +72,8 @@ opacity: 0.8;
 position: relative;
 border-radius: 9px;
 margin-top: 8px;
+position: absolute;
+right: -10000px;
 }
 
 #rectangle:before{
@@ -84,6 +88,6 @@ margin-top: 8px;
     border-right: 10px solid transparent;}
     
  .dropdown_item_first{
-    padding-top: 6px;
+    padding-top: 12px;
     font-weight: 700;
  }
