@@ -43,6 +43,8 @@
 .contacts_dropdown-item{
 top: 100%;
 color: #1E1F20;
+   text-align:center;
+margin-bottom: 5px; 
 }
 
 .dropdown:hover .contacts_dropdown-item{
