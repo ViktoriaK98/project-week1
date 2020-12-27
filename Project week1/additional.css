@@ -1,5 +1,6 @@
 .services_wrapper{
     background: url("./img/services/scover/headline.png") left top no-repeat ;
+    overflow:hidden;
 }
 .services{
     min-width: 412px;
