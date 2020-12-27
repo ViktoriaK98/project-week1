@@ -1,5 +1,5 @@
 .services_wrapper{
-    background: url("./img/services/scover/headline.png") left top no-repeat ;
+    background: url("/img/services/scover/headline.png") left top no-repeat ;
 }
 .services{
     min-width: 412px;
@@ -41,7 +41,6 @@
 }
 
 .offers_item{
-    width: 557px;
     height: 395px;
     border-radius: 5px;
 }
@@ -88,7 +87,9 @@
     display: flex;
 }
 .offers_img{
-    width: 65%;
+    width: 460px;
+    height: 333px;
+    overflow: hidden;
     margin-right: 7%;
     margin-bottom: 49px;
     opacity: 100%;
@@ -110,7 +111,12 @@ img{
 .paginator_item--active .paginator_link{
     color: #fff;
 background:#F5170E ;
+text-align: center;
+width: 32px;
+    height: 32px;
+    line-height: 32px;
 }
+
 
 .offers{
     padding: 98px;
@@ -198,7 +204,7 @@ padding: 50px 30px;
 }
 
 .review_user:after{
-    content: url("./img/review/vk-blue.png");
+    content: url("/img/review/vk-blue.png");
     height: 29px;
     padding-left: 12px
 }
@@ -246,6 +252,7 @@ padding: 50px 30px;
 
 .wrapper_reviews{
     background: #fff;
+    padding-bottom: 93px
 }
 .footer-container{
     background:#001821
@@ -290,7 +297,7 @@ height: 310px;
 height: 100%;
 align-items: center;
 justify-content: center;
-background: url("/img/welcome/screen.png") center bottom/ cover no-repeat;
+background: url("./img/welcome/screen.png") center bottom/ cover no-repeat;
 }
 
 
@@ -363,16 +370,23 @@ to{
     display: flex;
     margin-bottom: 26px;
 }
+
 .form_input{
     flex: 1;
     margin-right: 30px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid transparent;
+    outline: none;
+    resize: none;
     background: #fff;
 padding: 20px 30px;
 color: #1A1B1E;
 font-size:18px ;
 font-weight: 400;
+}
+
+.form_input:focus{
+    border: 1px solid  #F5170E;
 }
 
 .form_input:last-child{
